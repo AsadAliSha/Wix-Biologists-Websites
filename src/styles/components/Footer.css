@@ -1,0 +1,146 @@
+.footer-container {
+  /* background-color: #acafc4; */
+  background-color: rgb(198,189,190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px 0; */
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer-line {
+  border-top: 1px solid #1a1a1a;
+  margin-bottom: 50px;
+}
+
+.footer-main-heading img {
+  width: 50%;
+  /* margin-top: 40px; */
+}
+
+.footer-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 0;
+}
+
+/* .footer-col {
+    ma
+} */
+
+/* .footer-input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+  border: none;
+  border-bottom: 1px solid #1a1a1a !important;
+  opacity: 0.6;
+  border-radius: 0;
+  height: 52px;
+  margin-bottom: 20px;
+} */
+
+/* .footer-input p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+} */
+
+.footer-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 20px;
+  /* padding: 20px 0; */
+}
+
+.footer-input .placename::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a !important;
+}
+
+.footer-btn Button {
+  background-color: #1a1a1a;
+  color: #fff3f5;
+  width: 60%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+}
+
+.footer-wrap {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.footer-wrap p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-family: 'roman', sans-serif;
+}
+
+.footer-wrap a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  font-family: 'roman', sans-serif;
+}
+
+.footer-list {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 40px;
+  font-family: 'roman', sans-serif;
+  letter-spacing: 0;
+}
+
+.footer-list span {
+      font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-family: 'roman', sans-serif;
+  letter-spacing: 0;
+  border-bottom:1px solid #1a1a1a ;
+} 
+
+.footer-underline {
+    padding: 40px 0 ;
+    border-top: 1px solid #1a1a1a;
+    margin-top:8rem;
+}
+
+@media screen and (max-width:768px) {
+    .footer-underline {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width:500px) {
+.footer-main-heading {
+    width: 100%;
+}
+
+    .footer-btn Button {
+        width: 100%;
+    }
+
+    .footer-list p {
+        line-height: 30px;
+    }
+}

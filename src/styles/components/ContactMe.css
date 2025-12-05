@@ -1,0 +1,118 @@
+.contactme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255 241 244);
+}
+
+.contactme-main-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+.contactme-main-heading h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.1px;
+}
+
+.contactme-main-heading span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1a1a1a;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contactme-main-heading p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1a1a1a;
+  width: 55%;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.contactme-inputs {
+  margin-bottom: 40px;
+}
+
+.ourcontact-input-wrap {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.ourcontact-input {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  width: 40%;
+}
+
+.ourcontact-input .placename::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #1a1a1a !important;
+  opacity: 0.6;
+}
+.ant-input {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #1a1a1a !important;
+  opacity: 0.6;
+  border-radius: 0;
+  height: 52px;
+}
+
+.message-input .text-area {
+  background-color: transparent !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1a1a1a !important;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #1a1a1a !important;
+  opacity: 0.6;
+
+  /* border-radius: 4px; */
+  padding: 15px 10px;
+  margin-top: 40px;
+}
+
+.contact-btn Button {
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #1a1a1a;
+  color: #fff3f5;
+  margin-top: 40px;
+  width: 40%;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactme-main-heading h2 {
+    font-size: 40px;
+  }
+  .contactme-main-heading p {
+    width: 100%;
+  }
+
+  .ourcontact-input {
+    width: 100%;
+  }
+
+  .message-input .text-area {
+    width: 100%;
+  }
+  .contact-btn Button {
+    width: 100%;
+  }
+}

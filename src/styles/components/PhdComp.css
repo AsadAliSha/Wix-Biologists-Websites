@@ -1,0 +1,130 @@
+.phd-container {
+  background-color: #c6bdbe;
+  display: flex;
+  justify-content: center;
+}
+
+.phd-main-heading {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0;
+  font-family: 'roman', sans-serif;
+}
+
+.phd-main-heading h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0;
+}
+
+.phd-main-heading p {
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 45px;
+    width: 70%;
+}
+
+.phdline {
+  border-top: 1px solid #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.phd-sub-heading {
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: right; */
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.phd-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.phd-sub-heading p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height:25px;
+    font-family: 'roman', sans-serif;
+}
+
+.btn-modal Button{
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFF3F4;
+    padding: 10px 20px;
+    width: 170px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.btn-modal Button:hover {
+    background-color: #1a1a1a;
+    color: #FFF3F4;
+}
+
+/* .modal-bg {
+background-color: rgb(28, 121, 98);
+}
+
+.modal-logo  img{
+    width:20%;
+} */
+
+@media screen and (max-width:1024px) {
+  .phd-main-heading p {
+    font-size: 27px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .phd-main-heading h2 {
+    font-size: 40px;
+    padding-top:25px ;
+  }
+   .phd-main-heading {
+    padding-top:0;
+   }
+
+  /* .phd-main-heading p {
+    font-size: 20px;
+    width: 100%;
+  } */
+
+  .phd-sub-heading {
+    width: 69%;
+  }
+.phd-sub-heading p {
+  font-size: 14px;
+}
+
+}
+
+@media (max-width:500px) {
+   /* .phd-main-heading p {
+    font-size: 27px;
+    width: 100%;
+  } */
+.phd-main-heading p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+    .phd-sub-heading {
+    width:100%;
+  }
+  .phd-sub-heading p {
+    font-size: 14px;
+  }
+}

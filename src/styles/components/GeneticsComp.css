@@ -1,0 +1,114 @@
+.genetic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(255 241 244);
+}
+
+.genetic-main-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0;
+
+}
+
+.genetic-main-heading h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.1px;
+    font-family: 'Roman', sans-serif;
+    margin-bottom: 20px;
+}
+
+.genetic-main-heading p {
+    font-size: 32px;
+    font-weight: 400;
+    color: #1a1a1a;
+    letter-spacing: 0.1px;
+    line-height: 45px;
+    width: 70%;
+}
+
+.genetic-content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 40px;
+}
+
+.genetic-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a1a1a;
+    letter-spacing: 0.1px;
+    line-height: 30px;
+    width: 77%;
+}
+
+.genetic-btn {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.genetic-btn Button {
+background-color: #FFF3F4;
+color: #1a1a1a;
+font-size: 16px;
+font-weight: 500;
+font-family: 'roman', sans-serif;
+border: 1px solid #1a1a1a;
+width: 160px;
+height: 50px;
+border-radius: 50px;
+margin-top: 100px ;
+}
+
+.genetic-btn Button:hover {
+    background-color: #1a1a1a;
+    color: #fff3f5;
+    border: #1a1a1a;
+}
+
+.genetic-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+@media screen and (max-width:1024px) {
+    .genetic-main-heading h2 {
+        font-size: 48px;
+    }
+    .genetic-main-heading p {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .genetic-btn Button  {
+        margin-top: 20px;
+    }
+
+    .genetic-content p {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+  .genetic-main-heading h2 {
+        font-size: 30px;
+    }
+    .genetic-main-heading p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .genetic-content p {
+        font-size: 16px;
+        width: 100%;
+    }
+}
