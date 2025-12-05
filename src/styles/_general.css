@@ -41,6 +41,10 @@ p {
 width: 90%;
 }
 
+.width50 {
+  width: 50%;
+}
+
 .container {
   display: flex;
   justify-content: center;

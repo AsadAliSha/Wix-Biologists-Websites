@@ -4,26 +4,26 @@ const AwardsComp = () => {
   return (
     <div className='award-container'>
       <div className='width90'>
-        <div className='award-main-heading'>
+        <div className='award-main-heading' data-aos="fade-up" data-aos-duration='3000'>
           <h2>Awards and Accolades</h2>
         </div>
-        <div className='award-content'>
+        <div className='award-content' data-aos="fade-up" data-aos-duration='3000'>
           <span>Excellence in Research Award</span>
           <p>
             Recognized for groundbreaking contributions to molecular biology at the B.Wrgo
             Scientific Conference, 2022.
           </p>
         </div>
-        <div className='phdline'></div>
-        <div className='award-content'>
+        <div className='phdline'data-aos="fade-right" data-aos-duration='2000'></div>
+        <div className='award-content' data-aos="fade-up" data-aos-duration='3000'>
           <span>Emerging Scientist Honor</span>
           <p>
             Awarded by the Volaso-Thalina Biology Association for innovative work in gene editing,
             2021.
           </p>
         </div>
-        <div className='phdline'></div>
-        <div className='award-content'>
+        <div className='phdline' data-aos="fade-right" data-aos-duration='2000'></div>
+        <div className='award-content' data-aos="fade-up" data-aos-duration='3000'>
           <span>Grant for Advanced Studies</span>
           <p>
             Recipient of the prestigious Alfred Renovyte Innovators Grant for research in genetic

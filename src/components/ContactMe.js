@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <div className='contactme-container'>
       <div className='width90'>
-        <div className='contactme-main-heading'>
+        <div className='contactme-main-heading' data-aos="fade-up" data-aos-duration='3000'>
           <h2>Contact Me</h2>
           <span>Get in Touch</span>
           <p>

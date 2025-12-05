@@ -1,10 +1,11 @@
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import 'antd/dist/reset.css'
-
+import AOS from 'aos'
 import '../styles/style.css'
 import Routes from './Routes'
 import { light, dark } from './theme'
+import 'aos/dist/aos.css'
 
 const App = () => {
   const theme = useSelector((state) => state.theme.theme)
@@ -20,6 +21,9 @@ const App = () => {
       })
     }
   }, [theme])
+    useEffect(() => {
+    AOS.init()
+  }, [])
 
   return <Routes />
 }

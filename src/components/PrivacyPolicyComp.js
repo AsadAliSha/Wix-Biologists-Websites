@@ -3,7 +3,7 @@ import React from 'react'
 const PrivacyPolicyComp = () => {
   return (
     <div className='privacypolicy-container'>
-      <div className='width90'>
+      <div className='width50'>
         <div className='privacypolicy-main-heading'>
           <h2>Privacy Policy</h2>
         </div>

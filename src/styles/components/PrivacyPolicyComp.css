@@ -19,13 +19,14 @@
   letter-spacing: 0.1px;
   font-family: 'roman', sans-serif;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .privacypolicy-content span{
   font-size: 19px;
   font-weight: 500;
   color: #1a1a1a;
-
+/* text-align: center; */
 }
 
 .privacypolicy-content p {
@@ -33,8 +34,9 @@
   font-weight: 500;
   color: #1a1a1a;
   margin-top: 20px;
-  width: 60%;
+  /* width: 60%; */
   line-height: 30px;
+  /* text-align: center; */
 }
 
 .privacypolicy-text h3 {
@@ -49,7 +51,7 @@
   font-size: 16px;
   font-weight: 500;
   color: #1a1a1a;
-  width: 55%;
+  /* width: 55%; */
   line-height: 30px;
   margin-top: 20px;
 }
@@ -67,13 +69,13 @@
     font-size: 48px;
   }
 
- .privacypolicy-content p{
+ /* .privacypolicy-content p{
     width: 100%;
   }
 
 .privacypolicy-text p {
   width: 100%;
-}
+} */
 }
 
 @media screen and (max-width:768px) {
